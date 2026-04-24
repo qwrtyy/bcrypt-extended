@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group = 'pl.qwrtyy'
-version = '1.0-SNAPSHOT'
+group = 'com.github.qwrtyy'   // WAŻNE: musi być githubowy
+version = '1.0.0'
 
 repositories {
     mavenCentral()
@@ -13,10 +13,17 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-
-    testImplementation("org.junit.jupiter:junit-jupiter:5.14.0")
 }
 
 test {
     useJUnitPlatform()
+}
+
+tasks.withType(Javadoc).configureEach {
+    options.addStringOption('Xdoclint:none', '-quiet')
+}
+
+java {
+    withSourcesJar()
+    withJavadocJar()
 }
