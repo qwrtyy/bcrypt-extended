@@ -92,7 +92,6 @@ BCryptExtended/
 ├── BCryptExtended.java                    # Główna implementacja
 ├── BCryptExtendedExamples.java             # Praktyczne przykłady
 ├── BCryptExtendedTest.java                  # Test działania
-├── BCryptExtended_DOKUMENTACJA.md          # Pełna dokumentacja
 └── README.md                              
 ```
 
