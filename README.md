@@ -232,15 +232,13 @@ String password = BCryptExtended.generateRandomPassword(16);
 
 ## 📚 Dokumentacja
 
-### BCryptExtended_DOKUMENTACJA.md
+### README.md
 
 Pełna dokumentacja techniczna zawierająca:
 
-- 📖 Przeglądarch
 - 🏗️ Architektura klasy
 - 📖 API Reference (szczegółowy)
 - ✅ Best Practices
-- ❌ Typowe błędy
 - 📊 Benchmarki
 - 🔒 Security Considerations
 - 🔧 Troubleshooting
