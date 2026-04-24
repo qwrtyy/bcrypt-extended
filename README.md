@@ -33,7 +33,13 @@ advanced features:
 
 ## 🚀 Quick Start
 
-### 1. User Registration
+
+### 1. Implementation:
+
+[![](https://jitpack.io/v/qwrtyy/bcrypt-extended.svg)](https://jitpack.io/#qwrtyy/bcrypt-extended)
+
+
+### 2. User Registration
 
 ``` java
 // Hash password during registration
