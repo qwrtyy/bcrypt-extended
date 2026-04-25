@@ -1,4 +1,4 @@
-# BCryptExtended 2.1
+# BCryptExtended 1.0
 
 > 🔒 **Advanced BCrypt Implementation**
 
